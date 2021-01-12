@@ -12,7 +12,7 @@ White-listing is an activity performed by the MOSIP administrator. As part of th
 
 ### Adding Device Types
 
-The device type is a master data which specifies the type of device. Ideally in case of biometrics devices, there would be only three types of devices, i.e. iris scanner, fingerprint slap scanner and a camera. This is an one-time activity that can be performed by the administrator for different types of devices.
+The device type is a master data which specifies the type of device. Ideally in case of biometrics devices, there would be only three types of devices, i.e. iris scanner, fingerprint slap scanner and a camera. This is a one-time activity that can be performed by the administrator for different types of devices.
 
 The administrator should make sure that, the device type is available for a device, before creating any device specification. If the device type is not available then the administrator can create one.
 

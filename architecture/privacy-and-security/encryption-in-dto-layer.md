@@ -1,3 +1,10 @@
+---
+description: >-
+  Most of this page is repetitive or not needed for our purposes. It's a good
+  reference for the details of the cryptography protocols used, if we ever feel
+  like we need to examine that.
+---
+
 # Cryptography in MOSIP
 
 ## Background

@@ -1,3 +1,7 @@
+---
+description: 'HG: Can skip, this is a reference for developers.'
+---
+
 # Naming Standards
 
 ## Audience

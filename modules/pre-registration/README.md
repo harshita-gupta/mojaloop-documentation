@@ -1,3 +1,9 @@
+---
+description: >-
+  HG: The process flow diagrams here are helpful to understand a user's
+  interaction w/ Pre-registration.
+---
+
 # Pre-Registration
 
 ## Overview

@@ -1,3 +1,7 @@
+---
+description: 'HG: Can skip, this is primarily helpful for developers.'
+---
+
 # Data-Model
 
 This section contains details related to MOSIP data model design.The section also provides the data dictionary of the tables and columns defined by MOSIP databases.

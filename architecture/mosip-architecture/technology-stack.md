@@ -1,5 +1,7 @@
 # Technology Stack
 
+HG: Can probably skip this page. Details technologies used; not necessary to understand for our purposes.
+
 This page lists all the technologies used in building MOSIP. As far as possible free and open source software with clear long term support availability have been chosen. For a deployment certain choices can be replaced with other free or commercial options.
 
 | Domain | Tools/Technologies | Version | Licence Type |

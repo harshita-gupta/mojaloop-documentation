@@ -1,3 +1,7 @@
+---
+description: 'Can skip, this is a guide for devs.'
+---
+
 # UI Specification for Pre-registration
 
 UI specification helps us identify how the data in an ID attribute \(attributes of an ID object\) is going to be retrieved from the UI. The UI screens in registration client application and pre-registration application are rendered using their respective UI specification JSON. We have different UI Specifications for Registration Client & Pre-registration which is derived from the ID Schema. Here we would be discussing about the properties used in the UI specification of Pre-registration.

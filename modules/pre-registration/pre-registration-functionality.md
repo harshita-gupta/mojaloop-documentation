@@ -1,3 +1,9 @@
+---
+description: >-
+  HG: Excellent overview of all the pre-registration functionality & logic.
+  Fairly non-technically written.
+---
+
 # Pre-Registration Functionality
 
 ## Login/create a user account

@@ -1,3 +1,9 @@
+---
+description: >-
+  This shows devs what aspects of the pre-registration experience is easily
+  customizable to their country.
+---
+
 # Pre-Registration Configuration
 
 ## Configurations in Pre-Registration Properties files

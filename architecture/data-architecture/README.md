@@ -1,3 +1,9 @@
+---
+description: >-
+  HG: Pretty technical I think? Helpful if you want to know the specifics of how
+  data is organized & stored & who can access it.
+---
+
 # MOSIP and Data
 
 ## Data Architecture Principles

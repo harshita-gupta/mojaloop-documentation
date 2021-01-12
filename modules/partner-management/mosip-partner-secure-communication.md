@@ -2,7 +2,7 @@
 
 ## Introduction
 
-MOSIP and Partners communicate with each other when indviduals avail services of Partners. The communication must to be executed safely and securely.
+MOSIP and Partners communicate with each other when individuals avail services of Partners. The communication must to be executed safely and securely.
 
 * Confidential: The communication should be confidential and no other parties should be able to eaves drop the communicated details.
 * Integrity:  The integrity of the communication should be maintained.  

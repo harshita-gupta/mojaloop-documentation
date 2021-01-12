@@ -1,3 +1,7 @@
+---
+description: This is a long page but has a lot of helpful details.
+---
+
 # Registration
 
 ## Overview
@@ -17,6 +21,8 @@ Registration client must provide the following :
 [Registration Functionality](registration-functionality.md)
 
 ## Process flow
+
+HG: Helpful diagrams to go through if you want a more detailed look at the system. That said, [Registration Functionality](registration-functionality.md) is a more helpful description if you're a reading/writing-based person vs. a diagram person.
 
 ### Registration officer Onboarding
 

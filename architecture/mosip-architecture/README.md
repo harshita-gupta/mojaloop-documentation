@@ -17,6 +17,8 @@ The MOSIP architecture decisions have been based on the [Guiding Principles](../
 
 The sections below provide different views of the logical architecture of MOSIP.
 
+HG: I think this page is probably the last one in the [Architecture](../) section that's necessary to understand for our purposes. Once you read this you can probably skip to [Pre-registration](../../modules/pre-registration/).
+
 ## Functional Architecture
 
 From a MOSIP perspective, several actors are involved in the ID system.
@@ -62,4 +64,6 @@ and the support modules
 The diagram below show the various modules of mosip with their respective service bouquets and their interaction.
 
 ![](../../.gitbook/assets/mosip_logical_architecture_v1.png)
+
+Once you read this you can probably skip to [Pre-registration](../../modules/pre-registration/).
 

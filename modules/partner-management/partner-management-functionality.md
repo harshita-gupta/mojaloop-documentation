@@ -54,17 +54,17 @@ The authentication partner is one who partners with MOSIP to provide authenticat
 
 ### Upload & Download of Signature & Encryption Certificates
 
-An authentication partner need to upload an encryption & a signatire certificates using the partner management poratl. The signature certificate will be used in MOSIP to verify the signature when any request is received from the partner; where as, the encryption certificate would be used when any PII data is sent to the partner during e-KYC.
+An authentication partner need to upload an encryption & a signature certificates using the partner management portal. The signature certificate will be used in MOSIP to verify the signature when any request is received from the partner; where as, the encryption certificate would be used when any PII data is sent to the partner during e-KYC.
 
 ### Manage API Keys
 
-The authentication partner can view associated API keys and request for an API key for against a policy which is available for his/her policy group. Once a requeste is initiated a request is generated but a request is also sent for approval to the partner admin. The partner admin needs to approve the request before it can be used in MOSIP. This API key is one of the manadatory attributes in the authentication request using which MOSIP verifies the partner and policy mapping.
+The authentication partner can view associated API keys and request for an API key for against a policy which is available for his/her policy group. Once a request is initiated a request is generated but a request is also sent for approval to the partner admin. The partner admin needs to approve the request before it can be used in MOSIP. This API key is one of the mandatory attributes in the authentication request using which MOSIP verifies the partner and policy mapping.
 
 ## Credential Partners
 
 ### Upload & Download of Signature & Encryption Certificates
 
-An credential partner need to upload an encryption & a signatire certificates using the partner management poratl. The signature certificate will be used in MOSIP to verify the signature when any request is received from the partner; where as, the encryption certificate would be used when any PII data is sent to the partner based on policy to issue a credential.
+A credential partner need to upload an encryption & a signatire certificates using the partner management poratl. The signature certificate will be used in MOSIP to verify the signature when any request is received from the partner; where as, the encryption certificate would be used when any PII data is sent to the partner based on policy to issue a credential.
 
 ### Manage API Keys
 
