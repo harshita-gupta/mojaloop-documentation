@@ -1,48 +1,23 @@
-# Introduction
+---
+description: 'Harshita''s comments interspersed throughout, typically preceded by "HG:"'
+---
 
-![](.gitbook/assets/mosip_logo.png)
+# Mojaloop Overview
 
-## The MOSIP Program
+[![Git Commit](https://img.shields.io/github/last-commit/mojaloop/documentation.svg?style=flat)](https://github.com/mojaloop/documentation/commits/master) [![Git Releases](https://img.shields.io/github/release/mojaloop/documentation.svg?style=flat)](https://github.com/mojaloop/documentation/releases) [![CircleCI](https://circleci.com/gh/mojaloop/documentation.svg?style=svg)](https://circleci.com/gh/mojaloop/documentation)
 
-The MOSIP program was conceived to help build global digital public goods in the space of digital governance. The flagship of the program is the MOSIP platform that provides the core for a foundational identity system that can be used by countries to build their national identity programs. Anchored at the International Institute of Information Technology, Bangalore \([IIIT-B](https://www.iiitb.ac.in/)\), MOSIP harnesses the power of open source and embraces the best practices of scalability, security and privacy. [Learn more &gt;&gt;](https://www.mosip.io/)
+Mojaloop is open source software for creating digital payments platforms that connect all customers, merchants, banks, and other financial providers in a country's economy. Rather than a financial product or application in itself, Mojaloop establishes a blueprint for technology that bridges all the financial products and applications in any given market.
 
-## About MOSIP
+The basic idea behind Mojaloop is that we need to connect multiple Digital Financial Services Providers \(DFSPs\) together into a competitive and interoperable network in order to maximize opportunities for poor people to get access to financial services with low or no fees. We don't want a single monopoly power in control of all payments in a country, or a system that shuts out new players. It also doesn't help if there are too many isolated subnetworks.
 
-The **Modular Open Source Identity Platform** is an open source, open standards based foundational identity platform. MOSIP is an API first platform that can be used by countries to build their own national id platform. MOSIP offers id lifecycle management features and identity verification capabilities out of the box.
+![Mojaloop Solution](.gitbook/assets/Arch-Mojaloop-end-to-end-simple.svg)
 
-The key objectives of MOSIP are to:
+Our model addresses these issues in several key ways:
 
-* Provide the basic framework to create a fully functional foundational identity system
-* Provide flexibility for a country to choose and customize the features from the basic framework according to their requirements
-* Maintain privacy, security and confidentiality of an individual's data
-* Provide a scalable and accessible solution to cater to a wide range of population \(a few thousands to sevral hundreds of millions\)
+* A set of central services provides a hub through which money can flow from one DFSP to another. This is similar to how money moves through a central bank or clearing house in developed countries. Besides a central ledger, central services can provide identity lookup, fraud management, and enforce scheme rules.
+  * HG: I think it's helpful to think of the central services of Mojaloop as having 3 major pieces: the technical tools that provide **interoperability** \(connecting DFSPs\), those that help route payments \(directory service\), and the layer that ensures that transactions are recorded correctly \(and time-synchronized\) for _each_ DFSP \(transaction settlement layer\).
+* A standard set of interfaces a DFSP can implement to connect to the system, and example code that shows how to use the system. A DFSP that wants to connect up can adapt our example code or implement the standard interfaces into their own software. The goal is for it to be as straightforward as possible for a DFSP to connect to the interoperable network.
+* Complete working open-source implementations of both sides of the interfaces - an example DFSP that can send and receive payments and the client that an existing DFSP could host to connect to the network.
 
-## Releases
-
-The latest release of MOSIP, version 1.1.3 is here! We have added may interesting features as part of this release and also incorporated some software infrastructure changes as part of paring the technical debt. Check out the exciting new services and enhancements in the documentation.
-
-**Current Release**  
-Version: 1.1.3  
-Release Date: December 14, 2020  
-You can find the release notes [here](mosip-releases/release-notes-1.1.3/).
-
-**Previous Release**  
-Version: 1.1.2  
-Release Date: October 24, 2020  
-You can find the release notes [here](mosip-releases/release-notes-1.1.2/).
-
-Check out our [releases page](mosip-releases/) for a history of all public releases till date.
-
-## MOSIP Resources
-
-**Source Code**: [GitHub Repositories](https://github.com/mosip)  
-**Containers**: [Docker Repository](https://hub.docker.com/u/mosipid)  
-**Maven Repository**: [Nexus Repository](https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/)   
-**Presentations**: [mosip.io](https://www.mosip.io/resources.php)  
-**Learning Videos**: [YouTube Channel](https://www.youtube.com/channel/UCKFSVO6BO1QLvBzc4voziDg)  
-**Community**: [Gitter Channel](https://gitter.im/mosip-community/community)
-
-## Roadmap
-
-The MOSIP roadmap in the short term is the release of our **Long Term Support Version**. Our medium term focus is to enable reference implementations of identity usage, integrations and interoperability. The long term focus is to offer a set of core components for digital governance. Check out our [roadmap](roadmap/) and [call for contribution](contribute/call-for-contribution.md) to see how you can be part of the MOSIP journey.
+The intention for the Mojaloop project is for financial institutions and commercial providers to use the open-source software to help build digital, interoperable payments platforms that drive financial inclusion on a national scale. Specifically, the platforms will enable seamless, low-cost transactions between individual users, merchants, banks, providers, and even government offices - helping connect poor customers with everyone else in the digital economy.
 

@@ -4,6 +4,3 @@ Funds Out operation performs the prepare and reserve stages of the transfer at o
 
 ## Sequence Diagram
 
-
-{% uml src="mojaloop-technical-overview/central-settlements/funds-in-out/assets/diagrams/sequence/seq-recfunds-5.2.1-out-prepare-reserve.plantuml" %}
-{% enduml %}

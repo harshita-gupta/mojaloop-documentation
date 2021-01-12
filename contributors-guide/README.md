@@ -1,3 +1,7 @@
+---
+description: 'HG: Can skip this entire "contributors guide" section.'
+---
+
 # Contributors Guide
 
 ## How do I contribute?
@@ -5,9 +9,9 @@
 * Review the [Mojaloop Deployment](../deployment-guide/) Guide and the [Onboarding Guide](https://github.com/mojaloop/mojaloop/blob/master/onboarding.md)
 * Browse through the [Repository Overview](../repositories/) to understand how the Mojaloop code is managed across multiple Github Repositories
 * Get familiar with our [Standards](standards/) on contributing to this project
-* Go through the [New Contributor Checklist](./new-contributor-checklist.md), and browse through the project board and work on your [good first issue](https://github.com/mojaloop/project/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
+* Go through the [New Contributor Checklist](new-contributor-checklist.md), and browse through the project board and work on your [good first issue](https://github.com/mojaloop/project/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
 * Review the [Roadmap](../mojaloop-roadmap.md) and contribute to future opportunities
-* Familiarize yourself with our Community [Code of Conduct](../code-of-conduct.md)
+* Familiarize yourself with our Community [Code of Conduct](https://github.com/harshita-gupta/mojaloop-documentation/tree/43c018dbcbca7411f4e85477187b079b35ab0ff8/code-of-conduct.md)
 
 ## What work is needed?
 

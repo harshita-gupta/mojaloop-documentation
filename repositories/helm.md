@@ -15,12 +15,13 @@ Refer to [Releases](../deployment-guide/releases.md) for available versions.
 * Helm Chart Repo: [http://mojaloop.io/helm/repo](http://mojaloop.io/helm/repo) 
 * Helm Github: [http://github.com/mojaloop/helm](http://github.com/mojaloop/helm)
 
-![Mojaloop Helm - Chart Overview](./assets/diagrams/helm/HelmChartOverview.png)
+![Mojaloop Helm - Chart Overview](../.gitbook/assets/HelmChartOverview.png)
 
 ## Helm Hierarchy Relationship
 
-![Mojaloop Helm - Hierarchy Relationship](./assets/diagrams/helm/HelmHierarchyRelationship.png)
+![Mojaloop Helm - Hierarchy Relationship](../.gitbook/assets/HelmHierarchyRelationship.png)
 
 ## Helm Hierarchy of Values
 
-![Mojaloop Helm - Hierarchy of Values](./assets/diagrams/helm/HelmHierarchyValues.png)
+![Mojaloop Helm - Hierarchy of Values](../.gitbook/assets/HelmHierarchyValues.png)
+

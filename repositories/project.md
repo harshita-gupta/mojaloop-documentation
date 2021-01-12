@@ -14,3 +14,4 @@ The [project repository](https://github.com/mojaloop/project) is the central rep
 
 * [Feature Request Template](https://github.com/mojaloop/project/blob/master/.github/ISSUE_TEMPLATE/feature_request.md)
 * [Bug Report Template](https://github.com/mojaloop/project/blob/master/.github/ISSUE_TEMPLATE/bug_report.md)
+

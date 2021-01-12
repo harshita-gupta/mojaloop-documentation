@@ -4,13 +4,13 @@
 
 Mojaloop addresses a number of scenarios in which this software might help the poor to meet their financial and banking needs. There are several different paths for each of these scenarios, including potential timeout issues and reversals \(which are handled as a separate transaction\). The most common paths include:
 
-* [Send money to anyone](#send-money-to-anyone)
-* [Buy goods](#buy-goods)
-* [Bulk Payments](#bulk-payments)
-* [Tier Risk Levels](#tier-risk-levels)
-* [Fraud Checks and Blacklists](#fraud-checks-and-blacklists)
-* [Account Management](#account-management)
-* [Check Account and POS](#check-account-and-pos)
+* [Send money to anyone](core-scenarios.md#send-money-to-anyone)
+* [Buy goods](core-scenarios.md#buy-goods)
+* [Bulk Payments](core-scenarios.md#bulk-payments)
+* [Tier Risk Levels](core-scenarios.md#tier-risk-levels)
+* [Fraud Checks and Blacklists](core-scenarios.md#fraud-checks-and-blacklists)
+* [Account Management](core-scenarios.md#account-management)
+* [Check Account and POS](core-scenarios.md#check-account-and-pos)
 
 ### Scenario Descriptions
 
@@ -89,3 +89,4 @@ After Jahari has entered his pin on his phone he is able to see his account bala
 ```
 
 The merchant gets confirmation that he received payment and he prints a receipt for Jahari. Jahari also receives a text notification on his phone confirming the transaction has completed and including the transaction details. And since Jahari has his phone with him today he also re-checks his account balance again to confirm that appropriate funds were taken from his account. Jahari is happy that this is an easy process and he can see that he has plenty of money left to set aside this month for his family to use on education or health expenses.
+
